@@ -1,0 +1,10 @@
+train=1257 cal=270 test=270  hidden_dims=(32, 32) model_seed=0 train_rng_seed=1 batch_size=64 lr=0.001 epochs=60
+  epoch   1/60  loss=2.3042
+  epoch  10/60  loss=0.5843
+  epoch  20/60  loss=0.1724
+  epoch  30/60  loss=0.1011
+  epoch  40/60  loss=0.0720
+  epoch  50/60  loss=0.0484
+  epoch  60/60  loss=0.0365
+float32 test accuracy = 97.04%
+naive int4 test accuracy = 95.56%

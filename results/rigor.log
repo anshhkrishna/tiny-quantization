@@ -1,0 +1,23 @@
+  epoch   1/60  loss=2.2965
+  epoch  60/60  loss=0.0383
+seed 0: final loss=0.0383  float32=97.41%  naive_int4=94.81%  per_tensor_int8=97.41%  per_channel_int8=97.41%  gptq_int4=97.41%
+  epoch   1/60  loss=2.3174
+  epoch  60/60  loss=0.0253
+seed 1: final loss=0.0253  float32=97.78%  naive_int4=93.70%  per_tensor_int8=97.78%  per_channel_int8=97.78%  gptq_int4=94.81%
+  epoch   1/60  loss=2.2453
+  epoch  60/60  loss=0.0397
+seed 2: final loss=0.0397  float32=97.41%  naive_int4=96.67%  per_tensor_int8=97.41%  per_channel_int8=97.41%  gptq_int4=97.41%
+  epoch   1/60  loss=2.2741
+  epoch  60/60  loss=0.0417
+seed 3: final loss=0.0417  float32=97.41%  naive_int4=95.93%  per_tensor_int8=97.41%  per_channel_int8=97.78%  gptq_int4=96.67%
+  epoch   1/60  loss=2.3094
+  epoch  60/60  loss=0.0304
+seed 4: final loss=0.0304  float32=97.78%  naive_int4=95.93%  per_tensor_int8=97.78%  per_channel_int8=97.78%  gptq_int4=96.30%
+
+calibration/train/test leakage check: passed, no row overlap
+
+float32            mean =  97.56%   std =  0.18%   (n=5)
+naive_int4         mean =  95.41%   std =  1.04%   (n=5)
+per_tensor_int8    mean =  97.56%   std =  0.18%   (n=5)
+per_channel_int8   mean =  97.63%   std =  0.18%   (n=5)
+gptq_int4          mean =  96.52%   std =  0.95%   (n=5)

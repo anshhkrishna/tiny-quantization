@@ -1,4 +1,4 @@
-# tiny-quantization
+# int4-quantization-recovery
 
 five ways to quantize the same trained network, measured against each other. everything
 from scratch in numpy: the mlp, the training loop, and every quantizer including a
